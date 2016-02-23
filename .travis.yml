@@ -5,6 +5,8 @@ os:
 julia:
     - 0.4
     - nightly
+sudo: required
+dist: trusty
 env:
   global:
     - PYCALL_DEBUG_BUILD="yes"
